@@ -73,10 +73,16 @@ namespace ConsoleApp4
 
                 } while (vvod.ToUpper() != "Q") ;
 
-                Console.WriteLine($"Количество введенных элементов: {i}");
-                Console.WriteLine($"Количество ошибок ввода: {count}");
+            Console.WriteLine($"Количество введенных элементов: {i}");
+            Console.WriteLine($"Количество ошибок ввода: {count}");
 
-                Console.ReadLine();
+            Console.WriteLine("Введенные числа:");
+            for (int j = 0; j < i; j++)
+            {
+                Console.WriteLine(num[j]);
+            }
+
+            Console.ReadLine();
             }
     }
     }
