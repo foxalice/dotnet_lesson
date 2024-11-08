@@ -20,6 +20,7 @@ public class Farm
     }
     public void ShowAnimals()
     {
+        Console.WriteLine("Все жители фермы:");
         foreach (var animal in animals)
         {
             Console.WriteLine(animal);
